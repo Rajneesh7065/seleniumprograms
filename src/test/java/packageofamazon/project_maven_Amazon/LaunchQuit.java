@@ -14,7 +14,7 @@ public class LaunchQuit {
 		driver = new ChromeDriver();
 		driver.get("https://www.amazon.com");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
 	}
 	

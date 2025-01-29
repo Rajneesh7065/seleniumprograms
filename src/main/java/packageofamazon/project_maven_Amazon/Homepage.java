@@ -17,7 +17,7 @@ public class Homepage {
 	@FindBy(id="twotabsearchtextbox")
 	WebElement searchbox;
 	
-	@FindBy(xpath="//span[@class='nav-line-2 ']")
+	@FindBy(xpath="//a[@id='nav-link-accountList']")
 	WebElement accountlist;
 	
 	@FindBy(xpath="(//span[.='Sign in'])[1]")

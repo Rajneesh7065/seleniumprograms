@@ -28,6 +28,8 @@ public class Testcase3 extends LaunchQuit{
 		product3.Gotocart();
 		product3.Cart();
 		product3.productcount(3);
+		Thread.sleep(5000);
+		h1.accountlist(driver);
 		lp.logout();
 		
 	}

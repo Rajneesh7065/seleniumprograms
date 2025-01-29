@@ -22,7 +22,11 @@ public class Testcase4 extends LaunchQuit{
 		Product1page product3= new Product1page(driver);
 		product3.Gotocart();
 		product3.procedToPayment();
-		//lp.logout();
+		Paymentpage py= new Paymentpage(driver);
+		py.Backtocart();
+		Thread.sleep(2000);
+		h1.accountlist(driver);
+		lp.logout();
 		
 		
 	}

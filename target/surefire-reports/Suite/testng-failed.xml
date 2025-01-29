@@ -3,20 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="packageofamazon.project_maven_Amazon.Testcase3">
-        <methods>
-          <include name="quit"/>
-          <include name="launch"/>
-          <include name="login_search_wishlist_cart_increasecount3_logout"/>
-        </methods>
-      </class> <!-- packageofamazon.project_maven_Amazon.Testcase3 -->
-      <class name="packageofamazon.project_maven_Amazon.TestCase2">
-        <methods>
-          <include name="login_search_wishlist_cart_logout"/>
-          <include name="quit"/>
-          <include name="launch"/>
-        </methods>
-      </class> <!-- packageofamazon.project_maven_Amazon.TestCase2 -->
       <class name="packageofamazon.project_maven_Amazon.Testcase4">
         <methods>
           <include name="login_searchp_addtocart_makecodpayment_logout"/>
