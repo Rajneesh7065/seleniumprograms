@@ -4,9 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="packageofamazon.project_maven_Amazon.Testcase1"/>
-      <!-- <class name="packageofamazon.project_maven_Amazon.TestCase2"/>-->
-      <!-- <class name="packageofamazon.project_maven_Amazon.Testcase3"/>-->
-     <!--  <class name="packageofamazon.project_maven_Amazon.Testcase4"/>-->
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
