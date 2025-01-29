@@ -3,7 +3,7 @@ package packageofamazon.project_maven_Amazon;
 
 import org.testng.annotations.Test;
 
-public class Testcase2 extends LaunchQuit{
+public class TestCase2 extends LaunchQuit{
 	
 	@Test
 	public void login_search_wishlist_cart_logout() throws InterruptedException
