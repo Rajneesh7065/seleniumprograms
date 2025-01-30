@@ -28,7 +28,7 @@ public class Testcase2 extends LaunchQuit{
 		product3.Gotocart();
 		Thread.sleep(5000);
 		h1.accountlist(driver);
-		lp.logout();
+		//lp.logout();
 		
 		
 		

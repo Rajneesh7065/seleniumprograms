@@ -1,5 +1,8 @@
 package packageofamazon.project_maven_Amazon;
 
+import java.util.Iterator;
+import java.util.Set;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,19 +17,22 @@ public class SearchResultPage {
 	
 	public void selectproduct()
 	{
-		productresult.click();
+	productresult.click();
 		
-//	Set<String>	windows=	driver.getWindowHandles();
-//	Iterator<String> i2=	windows.iterator();
-//	String win1=i2.next();
-//	String win2=i2.next();
-//	driver.switchTo().window(win2);
+	Set<String>	windows=	driver.getWindowHandles();
+	Iterator<String> i2=	windows.iterator();
+	String win1=i2.next();
+	String win2=i2.next();
+	driver.switchTo().window(win2);
 	
 	}
 	
 
 	public SearchResultPage(WebDriver driver)
+	
 	{
+		
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 }
