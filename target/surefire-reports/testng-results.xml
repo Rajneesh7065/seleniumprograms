@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-30T23:52:11 IST" name="Suite" finished-at="2025-01-30T23:52:50 IST" duration-ms="38945">
+  <suite started-at="2025-01-31T23:31:34 IST" name="Suite" finished-at="2025-01-31T23:32:37 IST" duration-ms="63836">
     <groups>
     </groups>
-    <test started-at="2025-01-30T23:52:11 IST" name="Test" finished-at="2025-01-30T23:52:50 IST" duration-ms="38945">
+    <test started-at="2025-01-31T23:31:34 IST" name="Test" finished-at="2025-01-31T23:32:37 IST" duration-ms="63836">
       <class name="packageofamazon.project_maven_Amazon.Testcase4">
-        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.project_maven_Amazon.Testcase4@7c729a55]" started-at="2025-01-30T23:52:11 IST" name="launch" finished-at="2025-01-30T23:52:17 IST" duration-ms="6400" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:packageofamazon.project_maven_Amazon.Testcase4@7c729a55]" started-at="2025-01-31T23:31:34 IST" name="launch" finished-at="2025-01-31T23:31:40 IST" duration-ms="6904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login_searchp_addtocart_makecodpayment_logout()[pri:0, instance:packageofamazon.project_maven_Amazon.Testcase4@7c729a55]" started-at="2025-01-30T23:52:17 IST" name="login_searchp_addtocart_makecodpayment_logout" finished-at="2025-01-30T23:52:45 IST" duration-ms="27509" status="PASS">
+        <test-method signature="login_searchp_addtocart_makecodpayment_logout()[pri:0, instance:packageofamazon.project_maven_Amazon.Testcase4@7c729a55]" started-at="2025-01-31T23:31:40 IST" name="login_searchp_addtocart_makecodpayment_logout" finished-at="2025-01-31T23:32:32 IST" duration-ms="51773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_searchp_addtocart_makecodpayment_logout -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.project_maven_Amazon.Testcase4@7c729a55]" started-at="2025-01-30T23:52:45 IST" name="quit" finished-at="2025-01-30T23:52:50 IST" duration-ms="5003" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:packageofamazon.project_maven_Amazon.Testcase4@7c729a55]" started-at="2025-01-31T23:32:32 IST" name="quit" finished-at="2025-01-31T23:32:37 IST" duration-ms="5102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

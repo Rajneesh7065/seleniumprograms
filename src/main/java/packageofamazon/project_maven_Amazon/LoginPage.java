@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	
-	@FindBy(id="ap_email")
+	@FindBy(id="ap_email_login")
 	WebElement username;
 	
 	@FindBy(id="continue")

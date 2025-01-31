@@ -13,7 +13,7 @@ public class Product1page {
 	@FindBy(xpath = "//span[.='Continue shopping']")
 	WebElement continueshoping;
 	
-	@FindBy(xpath = "//input[@id='add-to-cart-button']")
+	@FindBy(id = "add-to-cart-button")
 	WebElement Addtocart;
 	
 	@FindBy(partialLinkText = "Go to")
