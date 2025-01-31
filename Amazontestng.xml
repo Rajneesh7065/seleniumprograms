@@ -5,7 +5,7 @@
     <classes>
       
       <class name="packageofamazon.project_maven_Amazon.Testcase1"/>
-      <class name="packageofamazon.project_maven_Amazon.Testcase2"/>
+      <class name="packageofamazon.project_maven_Amazon.TestCase2"/>
       <class name="packageofamazon.project_maven_Amazon.Testcase3"/>
       <class name="packageofamazon.project_maven_Amazon.Testcase4"/>
    
